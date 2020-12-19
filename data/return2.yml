@@ -1,0 +1,41 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# 测试脚本输入数据
+
+# 用户信息
+user_apply:
+  username: "313655"
+  password: "123456"
+user_manager:
+  username: "999991"
+  password: "123456"
+user_admin:
+  username: "030011"
+  password: "123456"
+# 公司信息
+company:
+  companyname: "安徽辉隆集团五禾生态肥业有限公司"
+# 回款单据信息
+customer: "安徽辉隆瑞美福农化集团有限公司"
+pay_type: "客商往来"
+bank: "杭州银行合肥分行营业部"
+payer: "王多鱼"
+pay_account: "6225335565977456"
+money_item:
+  - type: "货款"
+    money: 1000
+    confirm: 1000
+  - type: "货款"
+    money: 500
+    confirm: 400
+return_type: "冲欠款"
+credit:
+  notdue:
+    - serial_number: "SXGL202012160001"
+      use_money: 10
+    - serial_number: "SXGL202012160002"
+      use_money: 10
+    - serial_number: "SXGL202012160003"
+      use_money: 10
+
+

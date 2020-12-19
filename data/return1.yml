@@ -1,0 +1,45 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# 测试脚本输入数据
+
+# 用户信息
+user_apply:
+  username: "313655"
+  password: "123456"
+user_manager:
+  username: "999991"
+  password: "123456"
+user_admin:
+  username: "030011"
+  password: "123456"
+# 公司信息
+company:
+  companyname: "安徽辉隆集团五禾生态肥业有限公司"
+# 回款单据信息
+customer: "安徽辉隆瑞美福农化集团有限公司"
+applyer: "储黎云(自动化)"
+pay_type: "客商往来"
+bank: "杭州银行合肥分行营业部"
+payer: "王多鱼"
+pay_account: "6225335565977456"
+product_line: "复合肥"
+product:
+  - product_code: "10102020020537"
+    product_name: "40%五禾丰小麦专用复合肥22-12-6(40kg)"
+  - product_code: "10102020010963"
+    product_name: "54%大团结复合肥18-18-18五禾生态(50kg)"
+money_item:
+  - type: "货款"
+    money: 1000
+    confirm: 1000
+  - type: "货款"
+    money: 500
+    confirm: 400
+money_sum: 1500
+money_sum_confirm: 1400
+return_type: "预收款"
+price_policy: "20201215"
+activity:
+  - name: "复合肥产品线优惠"
+  - name: "202021124.1"
+
