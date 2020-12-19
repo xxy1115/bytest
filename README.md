@@ -17,3 +17,4 @@ https://www.cnblogs.com/fnng/p/4188162.html
 # 生成报告-直接查看：allure serve ./result1
 # 生成报告-本地生成文件夹：allure generate ./result1
 # 生成报告-指定生成到report文件夹：allure generate ./result1 -o report
+
